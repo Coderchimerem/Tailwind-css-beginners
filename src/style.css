@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+    --color-dark-blue: oklab(21.613% 0.00834 -0.09435);
+    --font-arial: Arial, san-serif;
+}
+
+@utility grid-cols-autofit {
+    grid-template-columns: repeat(auto-fit,minmax(13.75rem, 1fr));
+}
